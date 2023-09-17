@@ -1,4 +1,4 @@
-class apiCreation:
+class apiWrap:
     def __init__(self,urls,video_urls,state,data,jsonAPI):
         self.urls=urls
         self.video_urls=video_urls

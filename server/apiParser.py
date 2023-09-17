@@ -1,4 +1,4 @@
-from apiCreate import apiCreation
+from apiWrapper import apiWrap
 from googlesearch import search
 import openai
 from decouple import config
@@ -78,7 +78,7 @@ class apiParser:
         urls=self.returnUrl(state_name)
         data=[]
 
-        obj=apiCreation(urls,videourls,state_name,data,{})
+        obj=apiWrap(urls,videourls,state_name,data,{})
         jsonAPI=self.createAPI(state_name,data)
         jsonAPI["state"]=state_name
         jsonAPI["video_urls"] = videourls

@@ -7,15 +7,16 @@ class App extends Component {
   mapHandler = (event) => {
     const stateName = event.target.getElementsByTagName('title')[0].innerHTML
     axios({
- 
-      // Endpoint to send files
       url: "https://she-in-history.onrender.com/api/location",
-      method: "POST",
+      method: "post",
       mode: 'no-cors',
       headers: {
-
-          // Add any auth token here
-          authorization: "your token comes here",
+        'Content-Type':'application/json',
+        'Accept': 'application/json',
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Credentials': 'true',
+        'X-Requested-With': 'XMLHttpRequest',
+        "Access-Control-Allow-Headers": "content-type"
       },
 
       // Attaching the form data

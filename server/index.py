@@ -10,6 +10,5 @@ def locationInfoApi():
     state = str(request.get_data()).split('=')[1][:-1]
     res = db.getEntry(state)
     return res
-app.test_client().post('/api/location', data={'state': 'Florida'})
 # if __name__ == '__main__':
 #     app.run(debug=True,port=5000)

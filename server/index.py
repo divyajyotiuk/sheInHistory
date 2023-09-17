@@ -1,6 +1,12 @@
-from flask import Flask
-app = Flask(__name__)
+from flask import Flask, request, jsonify
 
-@app.route('/api/location')
+from db import Database
+app = Flask(__name__)
+db=Database(app)
+
+
+@app.route('/api/location', methods=["POST"])
 def locationInfoApi():
-    return 'Florida'
+    state = request.json['state']
+    print("state",state)
+    return state

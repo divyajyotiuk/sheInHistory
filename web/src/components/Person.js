@@ -1,6 +1,18 @@
 import React from 'react';
 import './Person.css'; 
 function Person({ persons }) {
+  persons= [
+    {
+      "name": "Marjory Stoneman Douglas",
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Marjory_Stoneman_Douglas"
+    },
+    {
+      "name": "Suzie Zuzek",
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Suzie_Zuzek"
+    }
+  ]
+
+
   return (
     <div className="person-cards">
       {persons.map((person, index) => (

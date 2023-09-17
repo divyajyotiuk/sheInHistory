@@ -7,6 +7,37 @@ function Accordion({ data }) {
   const toggleAccordion = () => {
     setExpanded(!expanded);
   };
+  data={"dates": [
+    {
+      "year": "2020",
+      "title": "Suzie Zuzek for Lilly Pulitzer: the Artist Behind an Iconic American Fashion Brand, 1962-1985"
+    },
+    {
+      "year": "1987",
+      "title": "Marjory Stoneman Douglas: Voice of the River"
+    }
+  ],
+  "events": [
+    {
+      "head": "Florida Commission on the Status of Women",
+      "desc": "Florida Women’s Hall of Fame"
+    },
+    {
+      "head": "Florida Division of Historical Resources",
+      "desc": "Florida Women’s Heritage Trail (PDF)"
+    }
+  ],
+  "persons": [
+    {
+      "name": "Marjory Stoneman Douglas",
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Marjory_Stoneman_Douglas"
+    },
+    {
+      "name": "Suzie Zuzek",
+      "wikipedia_link": "https://en.wikipedia.org/wiki/Suzie_Zuzek"
+    }
+  ]
+}
 
   return (
     <div className={`accordion ${expanded ? 'expanded' : ''}`}>

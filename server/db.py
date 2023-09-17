@@ -1,10 +1,11 @@
 from flask_pymongo import PyMongo
 import urllib
+import ssl
 from pymongo.server_api import ServerApi
 
 class Database:
     def __init__(self,app):
-        self.mongo_client= PyMongo(app, uri="mongodb+srv://gowdajotsna:"+urllib.parse.quote('Jotsna@080') + "@cluster0.eirnzcw.mongodb.net/shellh?retryWrites=true&w=majority",server_api=ServerApi('1'))
+        self.mongo_client= PyMongo(app, uri="mongodb+srv://gowdajotsna:"+urllib.parse.quote('Jotsna@080') + "@cluster0.eirnzcw.mongodb.net/shellh?retryWrites=true&w=majority",server_api=ServerApi('1'),  ssl=True,ssl_cert_reqs=ssl.CERT_NONE)
         self.db = self.mongo_client.db
     
     def addEntry(self, res):

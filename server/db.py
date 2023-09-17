@@ -11,7 +11,6 @@ class Database:
         self.db.stateinfo.insert_one(res)
 
     def getEntry(self, state_name):
-        print(state_name)
         return self.db.stateinfo.find_one({"state": state_name})
 
 

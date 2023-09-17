@@ -9,7 +9,7 @@ db=Database(app)
 
 @app.route('/api/location', methods=["POST"])
 def locationInfoApi():
-    parsed_data = request.get_data()
+    parsed_data = json.loads(request.get_data())
     print(parsed_data)
     res = db.getEntry(parsed_data['state'])
     print(res)

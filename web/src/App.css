@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.data-container {
+  background-color: #fff; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px; 
+  margin-top: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+.map-container {
+  position: relative;
+  width: 100%;
+  height: auto; 
+}

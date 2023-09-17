@@ -1,0 +1,23 @@
+.select-container {
+    margin-bottom: 20px;
+  }
+  
+  .select-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Customize label color */
+  }
+  
+  .select-dropdown {
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #ccc; /* Customize border color */
+    border-radius: 4px;
+    padding: 8px;
+  }
+  
+  /* Customize dropdown options if needed */
+  .select-dropdown option {
+    font-size: 16px;
+  }
+  

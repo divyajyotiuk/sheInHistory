@@ -1,0 +1,23 @@
+
+.accordion {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    transition: max-height 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .accordion.expanded {
+    max-height: 300px; 
+  }
+  
+  .accordion-header {
+    cursor: pointer;
+    background-color: #f5f5f5;
+    padding: 10px;
+  }
+  
+  .accordion-content {
+    padding: 10px;
+    background-color: #fff;
+  }
+  

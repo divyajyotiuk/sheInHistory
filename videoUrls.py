@@ -17,3 +17,4 @@ for url in search(search_query, num_results=num_results):
 # Print URLs from the "Videos" section
 for url in video_urls:
     print(f"Video URL: {url}")
+    

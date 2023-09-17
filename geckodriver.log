@@ -1,0 +1,46 @@
+1694915635395	geckodriver	INFO	Listening on 127.0.0.1:50409
+1694915638488	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50410" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91845\\AppData\\Local\\Temp\\rust_mozprofiles8N50p"
+*** You are running in headless mode.
+1694915657234	geckodriver	INFO	Listening on 127.0.0.1:50464
+1694915660305	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50465" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91845\\AppData\\Local\\Temp\\rust_mozprofilewRsQo2"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694915660708	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694915660779	Marionette	INFO	Listening on port 50472
+WebDriver BiDi listening on ws://127.0.0.1:50465
+Read port: 50472
+1694915661057	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:50465/devtools/browser/dd42ec06-946a-4fec-8361-823d57f1b582
+1694915665550	Marionette	INFO	Stopped listening on port 50472
+JavaScript warning: https://www.gstatic.com/_/mss/boq-one-google/_/js/k=boq-one-google.OneGoogleWidgetUi.en.7VCE4QTLvHw.es5.O/am=CABMGw/d=1/excm=_b,_tp,calloutview/ed=1/dg=0/wt=2/ujg=1/rs=AM-SdHuWxLUPhtAjELoRatnSdwGQpLbQwA/m=_b,_tp, line 247: Script terminated by timeout at:
+c@https://www.gstatic.com/_/mss/boq-one-google/_/js/k=boq-one-google.OneGoogleWidgetUi.en.7VCE4QTLvHw.es5.O/am=CABMGw/d=1/excm=_b,_tp,calloutview/ed=1/dg=0/wt=2/ujg=1/rs=AM-SdHuWxLUPhtAjELoRatnSdwGQpLbQwA/m=_b,_tp:247:187
+
+Dynamically enable window occlusion 1
+JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed
+1694915802085	geckodriver	INFO	Listening on 127.0.0.1:50542
+1694915805149	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50543" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\91845\\AppData\\Local\\Temp\\rust_mozprofileoWabVs"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694915805550	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694915805619	Marionette	INFO	Listening on port 50550
+WebDriver BiDi listening on ws://127.0.0.1:50543
+Read port: 50550
+1694915805892	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:50543/devtools/browser/24bc1035-8e66-433e-ad00-60dd726f58cb
+console.error: WebExtensions: 
+  Message: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIPropertyBag.getProperty]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/omni.ja!/chrome/browser/builtin-addons/search-detection/api.js :: stopListener :: line 197"  data: no]
+  Stack:
+    stopListener@jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/omni.ja!/chrome/browser/builtin-addons/search-detection/api.js:197:32
+
+JavaScript error: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3DWomen%2BHistorical%2Bdata%2BFlorida&q=EgSDXroOGN-5magGIjAwj7VGsg6Hn4z2lL8VYH8W5FGDKj0h4B6jv4_naxfN3-jsU_jL3QrSt1TykD3d0y0yAXJaAUM, line 1: SyntaxError: expected expression, got ','
+1694915813906	Marionette	INFO	Stopped listening on port 50550
+Dynamically enable window occlusion 1
+JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed
